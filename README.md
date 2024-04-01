@@ -6,7 +6,7 @@ Backend built with django and django-rest-framework. Authentication and registra
 
 Python through its most famous framework: Django. I considered it perfect for the project because one of its tools (Django Rest Framework) provides the logic to create a REST API easily and simplifies the authentication process.
 
-To generate the graph: Use the Python library matplotlib. Through this library, the ‘data’ model is read, and the graph is generated as an image. This image is then sent to the client along with the data using base64 encoding within the same JSON request12. 🐍🔧📊
+To generate the graph: Use the Python library matplotlib. Through this library, the ‘data’ model is read, and the graph is generated as an image. This image is then sent to the client along with the data using base64 encoding within the same JSON request. 🐍🔧📊
 
 
 ## Installation Process
