@@ -123,7 +123,9 @@ Go to your browser to localhost:8000/users, there you go, you see the crud optio
 
 
 ### 6. Consuming this API:
-   If you wanna consume this api from your app, you need to set the cors settings correctly, so go to setting.py in the api/ folder and copy/paste this:
+   If you wanna consume this api from your app, you need to set the cors settings correctly, so go to setting.py in the api/ folder and copy/paste the next code (replace 
+   ``localhost:5173`` 
+with your actual URL:)
 ```
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
